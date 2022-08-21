@@ -56,4 +56,5 @@ a {
 a:hover {
   color: blue;
   font-style: italic;
+  cursor: help;
 }
