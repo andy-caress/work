@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  margin: auto;
+}
+
+.container {
+  width: 100vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  margin: auto;
+}
+
+a {
+  font-size: 24px;
+  font-family: serif;
+  color: red;
+  text-decoration: none;
+  letter-spacing: -.65px;
+}
+
+a:hover {
+  color: blue;
+  font-style: italic;
+  cursor: help;
+}
+
+@media screen and (max-width: 800px) {
+
+
+}
